@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Flower Prediction</title>
+</head>
+<body>
+    <h1>🌸 Iris Flower Prediction using SVM</h1>
+    <form action="/predict" method="post">
+        <input type="number" name="sepal_length" placeholder="Sepal Length" required><br>
+        <input type="number" name="sepal_width" placeholder="Sepal Width" required><br>
+        <input type="number" name="petal_length" placeholder="Petal Length" required><br>
+        <input type="number" name="petal_width" placeholder="Petal Width" required><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+        <h2>{{ prediction_text }}</h2>
+    {% endif %}
+</body>
+</html>
