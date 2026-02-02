@@ -4,18 +4,8 @@ numpy
 scikit-learn
 joblib
 
-python -m spacy download en_core_web_sm
-
-streamlit run App.py
- 
-versions
-
 
 joblib==1.5.3
-
 numpy==2.4.2
-pandas==2.3.3
 scikit-learn==1.8.0
-scipy==1.17.0
 streamlit==1.53.1
-(venv) PS C:\Users\geeth\OneDrive\Desktop\iris>
